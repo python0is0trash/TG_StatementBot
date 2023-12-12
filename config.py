@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot('6868316989:AAHIFwhyogHN3cJ1rdKJPUvBwgM-90S8tBg')
+bot = telebot.TeleBot('TOKEN')
 
 link_back = 'https://мосу.мвд.рф/'
 commands_list = ['/start', '/logout', '/me', '/my_statements', '/add_statement', '/edit_statement', '/edit_user', '/add_administration']
