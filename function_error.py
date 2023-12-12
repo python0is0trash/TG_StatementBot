@@ -10,7 +10,7 @@ def program_error(message, text_hint='Ошибка выполнения запр
 
     if do_add_button_back:
         markup_inline.add(types.InlineKeyboardButton(text='🔙 Назад', callback_data='back_to_start'))
-    bot.send_message(chat_id=-1002000647607,
+    bot.send_message(chat_id=SOME_CHAT,
                      text=f'Произошла ошибка!\n\n'
                           f''
                           f'Код ошибки: {str(text_hint).split("/")[0] + str(text_hint).split("/")[1]}')
